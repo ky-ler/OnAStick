@@ -1,0 +1,4 @@
+name: OnAStick
+version: '${version}'
+main: com.freezi.onastick.OnAStick
+api-version: '1.20'
