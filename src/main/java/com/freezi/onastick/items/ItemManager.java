@@ -24,7 +24,7 @@ public class ItemManager {
     }
 
     private void createCraftingStick() {
-        ItemStack item = new ItemBuilder(Material.STICK)
+        ItemStack item = new ItemBuilder(Material.CRAFTING_TABLE)
                 .withName("Crafting Stick")
                 .withEnchantment(Enchantment.LUCK, 1)
                 .withItemFlag(ItemFlag.HIDE_ENCHANTS)

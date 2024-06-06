@@ -24,6 +24,8 @@ public class ItemEvents implements Listener {
 //            if (event.getItem() != null) {
             if (item.getItemMeta() != null
                     && item.getItemMeta().equals(itemManager.getCraftingStick().getItemMeta())) {
+                // prevent placing block on ground
+                event.setCancelled(true);
                 player.openWorkbench(player.getLocation(), true);
             }
 
